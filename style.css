@@ -1,0 +1,232 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1 {
+  background-color: green;
+  margin: 0.2em 0;
+
+}
+
+.sw {
+  text-align: center;
+  font-size: 8em;
+}
+
+div {
+  height: 70vh;
+  background-color: lightgoldenrodyellow;
+  margin-left: 5em;
+  margin-right: 5em;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+body {
+  height: 100vh;
+  margin: auto;
+  outline: 1px solid black;
+  padding: 7em;
+}
+
+.slots {
+
+  height: 35vh;
+  margin-bottom: 10px;
+
+}
+
+span {
+  width: 33%;
+  outline: 1px solid black;
+  float: left;
+  height: 40vh;
+  margin-left: 3px;
+  font-size: 20em;
+  /* padding-left: 75px; */
+  margin-top: -23px;
+}
+
+
+@media screen and (min-width:1441px)and (max-width: 1616px) {
+
+  span {
+    padding-left: 105px
+  }
+
+}
+
+@media screen and (min-width:1219px)and (max-width: 1441px) {
+
+  span {
+    width: 32%;
+    outline: 1px solid black;
+    float: left;
+    height: 40vh;
+    margin-left: 7px;
+    font-size: 20em;
+    padding-left: 75px;
+    margin-top: -23px;
+  }
+}
+
+
+@media screen and (min-width:1058px)and (max-width: 1218px) {
+  span {
+    margin-left: 12px;
+    width: 31%;
+    padding-left: 40px;
+    font-size:3em;
+
+  }
+.slots{
+  font-size:7em
+}
+.sw{
+  font-size:7em;
+}
+}
+
+@media screen and (min-width:919px)and (max-width: 946px) {
+  span {
+    margin-left: 5px;
+    width: 32%;
+    font-size: 18em;
+    padding-left: 36px;
+    height:37vh;
+  }
+  .sw{
+    font-size:7em;
+  }
+  
+}
+
+@media screen and (min-width:919px)and (max-width: 1057px) {
+  span {
+    margin-left: 5px;
+    width: 32%;
+    font-size: 18em;
+    padding-left: 36px;
+    height:37vh;
+  }
+  .sw{
+    font-size:6em;
+  }
+  
+}
+
+/* @mediascreen and (min-width:919px) and (max-width:946){
+  .sw{
+    font-size:6em;
+  }
+} */
+
+@media screen and (min-width:845px)and (max-width: 918px) {
+  span {
+    margin-left: 6px;
+    width: 32%;
+    font-size: 20em;
+    height: 40vh;
+    padding-left: .09em;
+}
+
+  div {
+    height: 64vh;
+    background-color: lightgoldenrodyellow;
+    margin-left: 0em;
+    margin-right: 0em;
+  }
+
+  .sw {
+    text-align: center;
+    font-size: 4em;
+  }
+  h1 {
+   
+    margin: 0.4em 0;
+}
+}
+
+
+@media screen and (min-width:770px)and (max-width:845px) {
+  span {
+    margin-left: 10px;
+    width: 31%;
+    font-size: 11em;
+    height: 30vh;
+    padding-left: 40px;
+    padding-top: .2em;
+  }
+
+  .sw {
+    text-align: center;
+    font-size: 4em;
+  }
+
+  .slots {
+    height: 35vh;
+    margin-bottom: 10px;
+
+  }
+
+  div {
+    height: 50vh;
+    background-color: lightgoldenrodyellow;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+}
+
+@media screen and(min-width:719px) and (max-width:769px) {
+  span {
+    width: 31%;
+    outline: 1px solid black;
+    float: left;
+    height: 20vh;
+    margin-left: 6px;
+    font-size: 8em;
+    margin-top: -23px;
+
+  }
+
+  .sw {
+    text-align: center;
+    font-size: 6em;
+  }
+
+  div {
+    height: 50vh;
+    background-color: lightgoldenrodyellow;
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+}
+
+
+
+
+@media screen and(min-width:550px) and (max-width:718px) {
+  span {
+
+    width: 32%;
+    outline: 1px solid black;
+    float: left;
+    height: 31vh;
+    margin-left: 4px;
+    font-size: 20em;
+    /* padding-left: 75px; */
+    margin-top: -23px;
+
+
+  }}
