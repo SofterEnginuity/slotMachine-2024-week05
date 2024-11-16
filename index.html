@@ -9,28 +9,29 @@
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
-		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="style.css">
 
 	</head>
 	<body>
-		<div>
+		<div class="everything">
 			<h1 class="sw">$pin & Win</h1>
 
 			<section class="slots">
-				<span class="span" id='slotA'></span>
-				<span class="span" id='slotB'></span>
-				<span class="span" id='slotC'></span>
-			</section>
 
-			<button type='button' id='min'>MIN BET</button>
-			<button type='button' id='max'>MAX BET</button>
-			
+				<div><p id='slotA'></p></div>
+				<div><p id='slotB'></p></div>
+				<div><p id='slotC'></p></div>
+			</section>
+			<section class="buttons">
+				<button type='button' id='min'>MIN BET</button>
+				<button type='button' id='max'>MAX BET</button>
+			</section>
 			<h2>Current Balance</h2>
 			<h2 id='wallet'></h2>
 			<h3 id='winLose'></h3>
 
 		</div>
 
-		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="main.js"></script>
 	</body>
 </html>
